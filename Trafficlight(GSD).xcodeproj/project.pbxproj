@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		9343B7662541E54D001C9512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9343B7652541E54D001C9512 /* AppDelegate.swift */; };
 		9343B7682541E54D001C9512 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9343B7672541E54D001C9512 /* SceneDelegate.swift */; };
-		9343B76A2541E54D001C9512 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9343B7692541E54D001C9512 /* ViewController.swift */; };
 		9343B76D2541E54D001C9512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9343B76B2541E54D001C9512 /* Main.storyboard */; };
 		9343B7702541E54D001C9512 /* Trafficlight_GSD_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9343B76E2541E54D001C9512 /* Trafficlight_GSD_.xcdatamodeld */; };
 		9343B7722541E54E001C9512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9343B7712541E54E001C9512 /* Assets.xcassets */; };
 		9343B7752541E54E001C9512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9343B7732541E54E001C9512 /* LaunchScreen.storyboard */; };
 		9343B7802541E54E001C9512 /* Trafficlight_GSD_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9343B77F2541E54E001C9512 /* Trafficlight_GSD_Tests.swift */; };
 		9343B78B2541E54E001C9512 /* Trafficlight_GSD_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9343B78A2541E54E001C9512 /* Trafficlight_GSD_UITests.swift */; };
+		9343B79F2541E5B8001C9512 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9343B79E2541E5B8001C9512 /* FirstViewController.swift */; };
+		9343B7A42541E5C4001C9512 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9343B7A32541E5C4001C9512 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		9343B7622541E54D001C9512 /* Trafficlight(GSD).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trafficlight(GSD).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9343B7652541E54D001C9512 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9343B7672541E54D001C9512 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9343B7692541E54D001C9512 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9343B76C2541E54D001C9512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9343B76F2541E54D001C9512 /* Trafficlight_GSD_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Trafficlight_GSD_.xcdatamodel; sourceTree = "<group>"; };
 		9343B7712541E54E001C9512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +51,8 @@
 		9343B7862541E54E001C9512 /* Trafficlight(GSD)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trafficlight(GSD)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9343B78A2541E54E001C9512 /* Trafficlight_GSD_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trafficlight_GSD_UITests.swift; sourceTree = "<group>"; };
 		9343B78C2541E54E001C9512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9343B79E2541E5B8001C9512 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		9343B7A32541E5C4001C9512 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +105,8 @@
 			children = (
 				9343B7652541E54D001C9512 /* AppDelegate.swift */,
 				9343B7672541E54D001C9512 /* SceneDelegate.swift */,
-				9343B7692541E54D001C9512 /* ViewController.swift */,
+				9343B79E2541E5B8001C9512 /* FirstViewController.swift */,
+				9343B7A32541E5C4001C9512 /* SecondViewController.swift */,
 				9343B76B2541E54D001C9512 /* Main.storyboard */,
 				9343B7712541E54E001C9512 /* Assets.xcassets */,
 				9343B7732541E54E001C9512 /* LaunchScreen.storyboard */,
@@ -261,10 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9343B76A2541E54D001C9512 /* ViewController.swift in Sources */,
 				9343B7702541E54D001C9512 /* Trafficlight_GSD_.xcdatamodeld in Sources */,
 				9343B7662541E54D001C9512 /* AppDelegate.swift in Sources */,
 				9343B7682541E54D001C9512 /* SceneDelegate.swift in Sources */,
+				9343B7A42541E5C4001C9512 /* SecondViewController.swift in Sources */,
+				9343B79F2541E5B8001C9512 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
