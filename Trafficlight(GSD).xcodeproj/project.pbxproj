@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9343B7662541E54D001C9512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9343B7652541E54D001C9512 /* AppDelegate.swift */; };
+		9343B7682541E54D001C9512 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9343B7672541E54D001C9512 /* SceneDelegate.swift */; };
+		9343B76A2541E54D001C9512 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9343B7692541E54D001C9512 /* ViewController.swift */; };
+		9343B76D2541E54D001C9512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9343B76B2541E54D001C9512 /* Main.storyboard */; };
+		9343B7702541E54D001C9512 /* Trafficlight_GSD_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9343B76E2541E54D001C9512 /* Trafficlight_GSD_.xcdatamodeld */; };
+		9343B7722541E54E001C9512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9343B7712541E54E001C9512 /* Assets.xcassets */; };
+		9343B7752541E54E001C9512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9343B7732541E54E001C9512 /* LaunchScreen.storyboard */; };
+		9343B7802541E54E001C9512 /* Trafficlight_GSD_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9343B77F2541E54E001C9512 /* Trafficlight_GSD_Tests.swift */; };
+		9343B78B2541E54E001C9512 /* Trafficlight_GSD_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9343B78A2541E54E001C9512 /* Trafficlight_GSD_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9343B77C2541E54E001C9512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9343B75A2541E54D001C9512 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9343B7612541E54D001C9512;
+			remoteInfo = "Trafficlight(GSD)";
+		};
+		9343B7872541E54E001C9512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9343B75A2541E54D001C9512 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9343B7612541E54D001C9512;
+			remoteInfo = "Trafficlight(GSD)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9343B7622541E54D001C9512 /* Trafficlight(GSD).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trafficlight(GSD).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9343B7652541E54D001C9512 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9343B7672541E54D001C9512 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9343B7692541E54D001C9512 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9343B76C2541E54D001C9512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9343B76F2541E54D001C9512 /* Trafficlight_GSD_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Trafficlight_GSD_.xcdatamodel; sourceTree = "<group>"; };
+		9343B7712541E54E001C9512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9343B7742541E54E001C9512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9343B7762541E54E001C9512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9343B77B2541E54E001C9512 /* Trafficlight(GSD)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trafficlight(GSD)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9343B77F2541E54E001C9512 /* Trafficlight_GSD_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trafficlight_GSD_Tests.swift; sourceTree = "<group>"; };
+		9343B7812541E54E001C9512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9343B7862541E54E001C9512 /* Trafficlight(GSD)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trafficlight(GSD)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9343B78A2541E54E001C9512 /* Trafficlight_GSD_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trafficlight_GSD_UITests.swift; sourceTree = "<group>"; };
+		9343B78C2541E54E001C9512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9343B75F2541E54D001C9512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9343B7782541E54E001C9512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9343B7832541E54E001C9512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9343B7592541E54D001C9512 = {
+			isa = PBXGroup;
+			children = (
+				9343B7642541E54D001C9512 /* Trafficlight(GSD) */,
+				9343B77E2541E54E001C9512 /* Trafficlight(GSD)Tests */,
+				9343B7892541E54E001C9512 /* Trafficlight(GSD)UITests */,
+				9343B7632541E54D001C9512 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9343B7632541E54D001C9512 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9343B7622541E54D001C9512 /* Trafficlight(GSD).app */,
+				9343B77B2541E54E001C9512 /* Trafficlight(GSD)Tests.xctest */,
+				9343B7862541E54E001C9512 /* Trafficlight(GSD)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9343B7642541E54D001C9512 /* Trafficlight(GSD) */ = {
+			isa = PBXGroup;
+			children = (
+				9343B7652541E54D001C9512 /* AppDelegate.swift */,
+				9343B7672541E54D001C9512 /* SceneDelegate.swift */,
+				9343B7692541E54D001C9512 /* ViewController.swift */,
+				9343B76B2541E54D001C9512 /* Main.storyboard */,
+				9343B7712541E54E001C9512 /* Assets.xcassets */,
+				9343B7732541E54E001C9512 /* LaunchScreen.storyboard */,
+				9343B7762541E54E001C9512 /* Info.plist */,
+				9343B76E2541E54D001C9512 /* Trafficlight_GSD_.xcdatamodeld */,
+			);
+			path = "Trafficlight(GSD)";
+			sourceTree = "<group>";
+		};
+		9343B77E2541E54E001C9512 /* Trafficlight(GSD)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9343B77F2541E54E001C9512 /* Trafficlight_GSD_Tests.swift */,
+				9343B7812541E54E001C9512 /* Info.plist */,
+			);
+			path = "Trafficlight(GSD)Tests";
+			sourceTree = "<group>";
+		};
+		9343B7892541E54E001C9512 /* Trafficlight(GSD)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9343B78A2541E54E001C9512 /* Trafficlight_GSD_UITests.swift */,
+				9343B78C2541E54E001C9512 /* Info.plist */,
+			);
+			path = "Trafficlight(GSD)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9343B7612541E54D001C9512 /* Trafficlight(GSD) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9343B78F2541E54E001C9512 /* Build configuration list for PBXNativeTarget "Trafficlight(GSD)" */;
+			buildPhases = (
+				9343B75E2541E54D001C9512 /* Sources */,
+				9343B75F2541E54D001C9512 /* Frameworks */,
+				9343B7602541E54D001C9512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trafficlight(GSD)";
+			productName = "Trafficlight(GSD)";
+			productReference = 9343B7622541E54D001C9512 /* Trafficlight(GSD).app */;
+			productType = "com.apple.product-type.application";
+		};
+		9343B77A2541E54E001C9512 /* Trafficlight(GSD)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9343B7922541E54E001C9512 /* Build configuration list for PBXNativeTarget "Trafficlight(GSD)Tests" */;
+			buildPhases = (
+				9343B7772541E54E001C9512 /* Sources */,
+				9343B7782541E54E001C9512 /* Frameworks */,
+				9343B7792541E54E001C9512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9343B77D2541E54E001C9512 /* PBXTargetDependency */,
+			);
+			name = "Trafficlight(GSD)Tests";
+			productName = "Trafficlight(GSD)Tests";
+			productReference = 9343B77B2541E54E001C9512 /* Trafficlight(GSD)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9343B7852541E54E001C9512 /* Trafficlight(GSD)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9343B7952541E54E001C9512 /* Build configuration list for PBXNativeTarget "Trafficlight(GSD)UITests" */;
+			buildPhases = (
+				9343B7822541E54E001C9512 /* Sources */,
+				9343B7832541E54E001C9512 /* Frameworks */,
+				9343B7842541E54E001C9512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9343B7882541E54E001C9512 /* PBXTargetDependency */,
+			);
+			name = "Trafficlight(GSD)UITests";
+			productName = "Trafficlight(GSD)UITests";
+			productReference = 9343B7862541E54E001C9512 /* Trafficlight(GSD)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9343B75A2541E54D001C9512 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					9343B7612541E54D001C9512 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					9343B77A2541E54E001C9512 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 9343B7612541E54D001C9512;
+					};
+					9343B7852541E54E001C9512 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 9343B7612541E54D001C9512;
+					};
+				};
+			};
+			buildConfigurationList = 9343B75D2541E54D001C9512 /* Build configuration list for PBXProject "Trafficlight(GSD)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9343B7592541E54D001C9512;
+			productRefGroup = 9343B7632541E54D001C9512 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9343B7612541E54D001C9512 /* Trafficlight(GSD) */,
+				9343B77A2541E54E001C9512 /* Trafficlight(GSD)Tests */,
+				9343B7852541E54E001C9512 /* Trafficlight(GSD)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9343B7602541E54D001C9512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9343B7752541E54E001C9512 /* LaunchScreen.storyboard in Resources */,
+				9343B7722541E54E001C9512 /* Assets.xcassets in Resources */,
+				9343B76D2541E54D001C9512 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9343B7792541E54E001C9512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9343B7842541E54E001C9512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9343B75E2541E54D001C9512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9343B76A2541E54D001C9512 /* ViewController.swift in Sources */,
+				9343B7702541E54D001C9512 /* Trafficlight_GSD_.xcdatamodeld in Sources */,
+				9343B7662541E54D001C9512 /* AppDelegate.swift in Sources */,
+				9343B7682541E54D001C9512 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9343B7772541E54E001C9512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9343B7802541E54E001C9512 /* Trafficlight_GSD_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9343B7822541E54E001C9512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9343B78B2541E54E001C9512 /* Trafficlight_GSD_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9343B77D2541E54E001C9512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9343B7612541E54D001C9512 /* Trafficlight(GSD) */;
+			targetProxy = 9343B77C2541E54E001C9512 /* PBXContainerItemProxy */;
+		};
+		9343B7882541E54E001C9512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9343B7612541E54D001C9512 /* Trafficlight(GSD) */;
+			targetProxy = 9343B7872541E54E001C9512 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9343B76B2541E54D001C9512 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9343B76C2541E54D001C9512 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9343B7732541E54E001C9512 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9343B7742541E54E001C9512 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9343B78D2541E54E001C9512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9343B78E2541E54E001C9512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9343B7902541E54E001C9512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78X5672765;
+				INFOPLIST_FILE = "Trafficlight(GSD)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ujin.Trafficlight-GSD-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9343B7912541E54E001C9512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78X5672765;
+				INFOPLIST_FILE = "Trafficlight(GSD)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ujin.Trafficlight-GSD-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9343B7932541E54E001C9512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78X5672765;
+				INFOPLIST_FILE = "Trafficlight(GSD)Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ujin.Trafficlight-GSD-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trafficlight(GSD).app/Trafficlight(GSD)";
+			};
+			name = Debug;
+		};
+		9343B7942541E54E001C9512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78X5672765;
+				INFOPLIST_FILE = "Trafficlight(GSD)Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ujin.Trafficlight-GSD-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trafficlight(GSD).app/Trafficlight(GSD)";
+			};
+			name = Release;
+		};
+		9343B7962541E54E001C9512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78X5672765;
+				INFOPLIST_FILE = "Trafficlight(GSD)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ujin.Trafficlight-GSD-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trafficlight(GSD)";
+			};
+			name = Debug;
+		};
+		9343B7972541E54E001C9512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78X5672765;
+				INFOPLIST_FILE = "Trafficlight(GSD)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ujin.Trafficlight-GSD-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trafficlight(GSD)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9343B75D2541E54D001C9512 /* Build configuration list for PBXProject "Trafficlight(GSD)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9343B78D2541E54E001C9512 /* Debug */,
+				9343B78E2541E54E001C9512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9343B78F2541E54E001C9512 /* Build configuration list for PBXNativeTarget "Trafficlight(GSD)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9343B7902541E54E001C9512 /* Debug */,
+				9343B7912541E54E001C9512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9343B7922541E54E001C9512 /* Build configuration list for PBXNativeTarget "Trafficlight(GSD)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9343B7932541E54E001C9512 /* Debug */,
+				9343B7942541E54E001C9512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9343B7952541E54E001C9512 /* Build configuration list for PBXNativeTarget "Trafficlight(GSD)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9343B7962541E54E001C9512 /* Debug */,
+				9343B7972541E54E001C9512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9343B76E2541E54D001C9512 /* Trafficlight_GSD_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9343B76F2541E54D001C9512 /* Trafficlight_GSD_.xcdatamodel */,
+			);
+			currentVersion = 9343B76F2541E54D001C9512 /* Trafficlight_GSD_.xcdatamodel */;
+			path = Trafficlight_GSD_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9343B75A2541E54D001C9512 /* Project object */;
+}
